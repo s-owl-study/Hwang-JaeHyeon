@@ -15,7 +15,7 @@
 * 인터페이스 구현
     + **implements** 키워드를 이용
 
-    + `class Galaxy implements Galaxy Interface {...}`
+    + `class Galaxy implements GalaxyInterface {...}`
 
     + 여려 가지의 인터페이스들을 한꺼번에 구현 가능
 
@@ -88,4 +88,4 @@
 
     3. 생성자 호출
 
-### 출처 : 명품 자바 프로그래밍(황기태 저) 외 구글링한 정보 다수 
+### 출처 : 명품 자바 프로그래밍(황기태 저)
