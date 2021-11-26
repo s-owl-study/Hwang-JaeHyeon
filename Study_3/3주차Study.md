@@ -65,14 +65,18 @@
 ## 상위 인터페이스들의 주요 메소드들
 
 * Collection 인터페이스
+
   * **boolean add(E e)** : Collection에 객체 추가하기
   * **void clear()** : Collection의 모든 객체를 제거
   * **boolean remove(Object o)** : Collection에 매개변수에 해당하는 instance가 존재하면 제거
   * **int size()** : Collection에 있는 element의 개수를 반환
+  
 * List 인터페이스(Collection 인터페이스를 상속 받으므로, 별도로 추가된 메소드들만 설명함.)
+
   * **E get(int index)** : 해당 리스트의 특정한 위치에 존재하는 요소를 반환
   * **Object[] toArray()** : 해당 리스트의 모든 요소를 Object 타입의 배열로 반환
-* Map 인터페이스
+* Map 인터페이스(Collection 인터페이스를 상속 받으므로, 별도로 추가된 메소드들만 설명함.)
+
   * **void put(K key, V value)** : key에 해당하는 value 값을 map에 삽입
   * **void get(K key)** : key에 해당하는 value 값을 반환
   * **boolean isEmpty()** : Map이 비어있는지 여부를 반환
