@@ -62,6 +62,8 @@
 
 ![Collection Framework의 구조](https://media.vlpt.us/images/nunddu/post/60e79219-7834-4f3d-8b9e-49e7d70ed725/image.png)
 
+출처 : https://velog.io/@nunddu/Java-Collections-Framework
+
 ## 상위 인터페이스들의 주요 메소드들
 
 * Collection 인터페이스
