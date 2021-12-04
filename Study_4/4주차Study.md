@@ -116,11 +116,10 @@
 * 문자 스트림의 계층 구조
 
   * Reader/Writer : 문자 스트림을 다루는 모든 클래스의 슈퍼 클래스
-
   * InputStreamReader/OutputStreamWriter
-
   * FileReader/FileWriter : 텍스트 파일에서 문자 데이터 입출력
-  ![](https://t1.daumcdn.net/cfile/tistory/9941F93B5AA529FD2A)
+
+![](https://t1.daumcdn.net/cfile/tistory/9941F93B5AA529FD2A)
 
     출처 : <https://mainpower4309.tistory.com/18>
   
