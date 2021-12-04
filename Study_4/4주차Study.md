@@ -109,9 +109,10 @@
   * InputStream/OutputStream : 바이트 스트림을 다루는 모든 클래스의 슈퍼 클래스
   * FileInputStream/FileOutputStream : 파일로부터 바이트 단위로 읽거나 저장하는 클래스
   * DataInputStream/DataOutputStream : 자바의 기본 데이터 타입의 값을 바이너리 값 그대로 입출력, 문자열도 가능
-![](https://t1.daumcdn.net/cfile/tistory/99DEDB385AA5299E0F)
   
-    출처 : <https://mainpower4309.tistory.com/18>
+![](https://t1.daumcdn.net/cfile/tistory/99DEDB385AA5299E0F)
+
+출처 : <https://mainpower4309.tistory.com/18>
 
 * 문자 스트림의 계층 구조
 
@@ -121,7 +122,7 @@
 
 ![](https://t1.daumcdn.net/cfile/tistory/9941F93B5AA529FD2A)
 
-    출처 : <https://mainpower4309.tistory.com/18>
+출처 : <https://mainpower4309.tistory.com/18>
   
 ## 익명 클래스(Anonymous class)
 
