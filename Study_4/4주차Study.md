@@ -168,3 +168,11 @@ MyInterface myClass = new MyInterface() {
         System.out.println("doSomething: " + a);
     }
 };
+
+IntStream.range(1, 100).forEach(i -> {
+  //Do Something
+  if (i > 50) {
+    return;
+  }
+  System.out.println(i);
+});
