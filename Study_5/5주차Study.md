@@ -100,6 +100,8 @@ public class DTOBean {
 }
 ```
 
+출처 : <https://genesis8.tistory.com/214>
+
 ### DTO 클래스 예제
 
 ``` java
@@ -121,3 +123,5 @@ public class TestDao {
     }
 }
 ```
+
+출처 : <https://genesis8.tistory.com/214>
