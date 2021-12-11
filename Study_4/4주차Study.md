@@ -79,7 +79,7 @@
   * 입력 Stream : 입력 장치로부터 자바 프로그램 내부로 데이터를 전달
   * 출력 Stream : 출력 장치로 데이터 출력
   
-  ![](http://tcpschool.com/lectures/img_c_stream.png)
+  ![java](http://tcpschool.com/lectures/img_c_stream.png)
 
 출처 : <http://tcpschool.com/java/java_io_stream>
 
@@ -110,7 +110,7 @@
   * FileInputStream/FileOutputStream : 파일로부터 바이트 단위로 읽거나 저장하는 클래스
   * DataInputStream/DataOutputStream : 자바의 기본 데이터 타입의 값을 바이너리 값 그대로 입출력, 문자열도 가능
   
-![](https://t1.daumcdn.net/cfile/tistory/99DEDB385AA5299E0F)
+![byte 스트림](https://t1.daumcdn.net/cfile/tistory/99DEDB385AA5299E0F)
 
 출처 : <https://mainpower4309.tistory.com/18>
 
@@ -120,7 +120,7 @@
   * InputStreamReader/OutputStreamWriter
   * FileReader/FileWriter : 텍스트 파일에서 문자 데이터 입출력
 
-![](https://t1.daumcdn.net/cfile/tistory/9941F93B5AA529FD2A)
+![char 스트림](https://t1.daumcdn.net/cfile/tistory/9941F93B5AA529FD2A)
 
 출처 : <https://mainpower4309.tistory.com/18>
   
