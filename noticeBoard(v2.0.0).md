@@ -114,7 +114,7 @@
 
       * 대댓글 표시의 경우, 화살표 그림이 표시되어야 함
 
-      * 댓글과 대댓글에서 각각 내용들을 입력하지 않고 등록 버튼을 누른 경우에는 "내용이 존재하지 않습니다!"라는 알림창이 나타나야 함 
+      * 댓글과 대댓글에서 각각 내용들을 입력하지 않고 등록하거나, 조건에 맞지 않은 상태에서 등록버튼을 누른 경우에는 "값을 다시 확인하세요!"라는 알림창이 나타나야 함 
       
     ![](https://images.velog.io/images/ten0213/post/18e25de8-edca-445b-8517-0cef77c1494e/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%EB%85%B8%ED%8A%B8_4.jpg)
 
@@ -152,8 +152,10 @@
 
 ![](https://images.velog.io/images/ten0213/post/6ed6a0c1-9c41-4757-a2e1-122e4c35a670/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%ED%8A%B8_5.jpg)
  
-    
+
 ## FLOW CHART
+
+https://han.gl/LqMyz
 
 
 
@@ -173,3 +175,6 @@
 * column의 갯수 : 7
 
 * Primary key : 글 번호(boardId)
+
+
+
