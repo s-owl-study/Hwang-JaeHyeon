@@ -154,8 +154,9 @@
  
 
 ## FLOW CHART
+![](https://images.velog.io/images/ten0213/post/cf44e850-0857-4de6-8bfc-059b040ff6b6/flowchart.drawio.png)
 
-https://han.gl/LqMyz
+https://han.gl/mRCDk
 
 
 
