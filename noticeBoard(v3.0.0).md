@@ -1,4 +1,4 @@
-# 게시판 구상 계획서(v3.0.0)
+# 게시판 구상 계획서(v2.0.0)
 
 ## 페이지별 존재해야 하는 기능 설계(전체적인 구조를 표현하는 예시화면 첨부함)
 
@@ -50,7 +50,7 @@
 
     * 게시판 메인 페이지에서 등록하기 버튼을 선택 후 팝업창이 표시되고, 이 곳에서 작성자, 비밀번호 작성 후 확인버튼을 누르면 게시글 등록이 가능한 글쓰기 페이지로 이동 가능함
     
-    ![](https://images.velog.io/images/ten0213/post/c076f4c7-7f99-45fe-850c-0d30fa829261/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%EB%85%B8%ED%8A%B8_1_6.jpg)
+      ![](https://images.velog.io/images/ten0213/post/c076f4c7-7f99-45fe-850c-0d30fa829261/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%EB%85%B8%ED%8A%B8_1_6.jpg)
     <게시판 메인 페이지에서 글쓰기 버튼을 누르고 들어온 경우의 화면>
       * 비밀번호 생성 조건
         * 5자~15자 byte로 생성되어야 함
@@ -121,7 +121,8 @@
     
 
       * 삭제 : 배치된 삭제버튼을 누르면  "게시물 전체를 삭제하시겠습니까?" 라는 문구와, 취소/확인 버튼이 포함된 팝업창이 노출되어야 함
-      ![](https://images.velog.io/images/ten0213/post/cec61203-7396-4e0f-8027-1965a233b303/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%EB%85%B8%ED%8A%B8_2_14.jpg)
+            
+        ![](https://images.velog.io/images/ten0213/post/35b957e5-796a-4d79-8781-3f45df930825/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%EB%85%B8%ED%8A%B8_2_10.jpg)
       <삭제 여부를 확인하는 팝업창이 노출된 화면>
 
         * 확인 버튼을 누르면 삭제 되어야 함
@@ -152,7 +153,7 @@
     ![](https://images.velog.io/images/ten0213/post/b6ade0d4-6b72-4b56-833d-fcefb303b7b3/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%EB%85%B8%ED%8A%B8_1_7.jpg)
 
     ![](https://images.velog.io/images/ten0213/post/bdda83dd-cb72-440e-a256-0f63c644059b/%EC%9D%B4%EB%A6%84%EC%97%86%EB%8A%94%20%EB%85%B8%ED%8A%B8_5.jpg)
-    <게시판 메인 페이지에서 게시글 제목을 누르고 들어온 화면>
+    <게시글 조회 전체화면>
 
 4. 게시판의 내용을 볼 수 있는 페이지에서 수정 버튼을 누르고 비밀번호 입력 후 확인 버튼을 눌러서 들어온 **수정 페이지**
 
@@ -197,9 +198,9 @@
  
 
 ## FLOW CHART
-![](https://images.velog.io/images/ten0213/post/cf44e850-0857-4de6-8bfc-059b040ff6b6/flowchart.drawio.png)
+![](https://images.velog.io/images/ten0213/post/8f36db62-3bee-4088-b067-c3af438e1737/FlowChart_NoticeBoard.jpg)
 
-https://han.gl/mRCDk
+https://han.gl/VEYFq
 
 
 
