@@ -227,14 +227,24 @@ https://han.gl/VEYFq
 |    O    | commentId      | int          |
 |         | commentName    | varchar(40)  |
 |         | commentPw      | varchar(45)  |
-|         | commentContent | varchar(100) |  
+|         | commentContent | varchar(100) | 
 
-* 테이블명 : board, member, comment
+| pk 여부  | name          | type         |
+|---------|----------------|--------------|
+|    O    | attechmentId   | int          |
+|         | attechmentContent |   varchar(200)|
 
-* column의 갯수 : board : 6, member : 3, comment : 4
+* 테이블명 : board, member, comment, attechment
+
+* column의 갯수
+  * board : 6
+  * member : 3
+  * comment : 4
+  * attechment : 2
 
 * Primary key 
 
   * board : boardId
   * member : memberId
   * comment : commentId
+  * attechment : attechmentId
