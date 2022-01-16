@@ -1,4 +1,4 @@
-# 게시판 구상 계획서(v2.0.0)
+# 게시판 구상 계획서(v4.0.0)
 
 ## 페이지별 존재해야 하는 기능 설계(전체적인 구조를 표현하는 예시화면 첨부함)
 
@@ -214,7 +214,7 @@ https://han.gl/VEYFq
 |         | createDt      | DATETIME     |
 |         | updateDt      | DATETIME     |
 |         | boardContents | varchar(220) |
-|         | MemberId      | int|          
+|         | memberId      | int|          
 
 | pk 여부  | name         | type         |
 |---------|---------------|--------------|
@@ -222,8 +222,19 @@ https://han.gl/VEYFq
 |         | memberName    | varchar(40)  |
 |         | memberPw      | varchar(45)  |
 
-* 테이블명 : board, member
+| pk 여부  | name          | type         |
+|---------|----------------|--------------|
+|    O    | commentId      | int          |
+|         | commentName    | varchar(40)  |
+|         | commentPw      | varchar(45)  |
+|         | commentContent | varchar(100) |  
 
-* column의 갯수 : board : 6, member : 3
+* 테이블명 : board, member, comment
 
-* Primary key : board : boardId, member : memberId
+* column의 갯수 : board : 6, member : 3, comment : 4
+
+* Primary key 
+
+  * board : boardId
+  * member : memberId
+  * comment : commentId
