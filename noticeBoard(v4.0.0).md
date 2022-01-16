@@ -1,4 +1,4 @@
-# 게시판 구상 계획서(v4.0.0)
+# 게시판 구상 계획서(v2.0.0)
 
 ## 페이지별 존재해야 하는 기능 설계(전체적인 구조를 표현하는 예시화면 첨부함)
 
@@ -207,18 +207,23 @@ https://han.gl/VEYFq
 
 
 ## 데이터베이스(작성 전)
-| pk 여부 | name          | type         |
+| pk 여부  | name          | type         |
 |---------|---------------|--------------|
 |    O    | boardId       | int          |
 |         | boardTitle    | varchar(60)  |
-|         | memberName    | varchar(20)  |
-|         | writeTime     | DATETIME     |
+|         | createDt      | DATETIME     |
+|         | updateDt      | DATETIME     |
 |         | boardContents | varchar(220) |
-|         | memberId      | varchar(40)  |
+|         | MemberId      | int|          
+
+| pk 여부  | name         | type         |
+|---------|---------------|--------------|
+|    O    | memberId      | int          |
+|         | memberName    | varchar(40)  |
 |         | memberPw      | varchar(45)  |
 
-* 테이블명 : noticeBoardTable
+* 테이블명 : board, member
 
-* column의 갯수 : 7
+* column의 갯수 : board : 6, member : 3
 
-* Primary key : 글 번호(boardId)
+* Primary key : board : boardId, member : memberId
