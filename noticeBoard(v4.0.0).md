@@ -207,37 +207,42 @@ https://han.gl/VEYFq
 
 
 ## 데이터베이스(작성 전)
-| pk 여부  | name          | type         |
+
+| pk, fk 여부  | name     |      type     |
 |---------|---------------|--------------|
-|    O    | boardId       | int          |
+|   **pk**| boardId       |     int      |
 |         | boardTitle    | varchar(60)  |
 |         | createDt      | DATETIME     |
 |         | updateDt      | DATETIME     |
 |         | boardContents | varchar(220) |
-|         | memberId      | int|          
+|   **fk**| memberId      | int          |  
+|   **fk**| commentId     | int          |
+|   **fk**| attechmentId  | int          |
+|         | isDelete      |    boolean |        
 
 | pk 여부  | name         | type         |
 |---------|---------------|--------------|
-|    O    | memberId      | int          |
+|    **O**    | memberId      | int          |
 |         | memberName    | varchar(40)  |
 |         | memberPw      | varchar(45)  |
 
 | pk 여부  | name          | type         |
 |---------|----------------|--------------|
-|    O    | commentId      | int          |
+|    **O**    | commentId      | int          |
 |         | commentName    | varchar(40)  |
 |         | commentPw      | varchar(45)  |
 |         | commentContent | varchar(100) | 
 
 | pk 여부  | name          | type         |
 |---------|----------------|--------------|
-|    O    | attechmentId   | int          |
+|    **O**    | attechmentId   | int          |
 |         | attechmentContent |   varchar(200)|
+
 
 * 테이블명 : board, member, comment, attechment
 
 * column의 갯수
-  * board : 6
+  * board : 9
   * member : 3
   * comment : 4
   * attechment : 2
